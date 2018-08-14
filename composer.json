@@ -1,0 +1,20 @@
+{
+  "name": "opnuc/pbx-linker-for-asterisk",
+  "description": "OpnUC PBX Linker for Asterisk",
+  "license": "MIT",
+  "require": {
+    "marcelog/pami": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpnUC\\PbxLinkerForAsterisk\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OpnUC\\PbxLinkerForAsterisk\\PbxLinkerServiceProvider"
+      ]
+    }
+  }
+}
